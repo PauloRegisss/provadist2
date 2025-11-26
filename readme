@@ -1,0 +1,12 @@
+Miniprojeto Distribuído N2 
+Sistema de Controle para Linha de Produção Industrial 
+
+ 
+
+Salve o arquivo como simulacao_linha.py. 
+
+Teste o toy-problem sugerido: 
+python simulacao_linha.py --buffer 10 --producers 2 --consumers 3 --timesteps 100 --timestep-duration 0.0 
+
+Para salvar a ocupação por timestep em CSV : 
+python simulacao_linha.py --buffer 10 --producers 2 --consumers 3 --timesteps 100 --save-csv ocupacao.csv 
