@@ -1,0 +1,50 @@
+================================================================================
+RELATÓRIO DE EXECUÇÃO DO SISTEMA DISTRIBUÍDO
+================================================================================
+
+EVENTOS REGISTRADOS:
+--------------------------------------------------------------------------------
+  RECEBIMENTO: 10583
+  ATENDIMENTO: 10583
+  FALHA_ATENDENTE: 1768
+  ENTRADA_ATENDENTE: 1768
+  FAILOVER: 28
+  FALHA_SERVIDOR: 28
+  RECUPERACAO: 28
+  INFO: 7
+  INICIO: 3
+  FIM: 3
+
+================================================================================
+ESTATÍSTICAS POR SERVIDOR:
+--------------------------------------------------------------------------------
+
+Server-A:
+  Total de eventos: 21663
+  Atendimentos: 10422
+  Falhas do servidor: 8
+  Falhas de atendentes: 396
+  Entradas de atendentes: 396
+
+Server-B:
+  Total de eventos: 1505
+  Atendimentos: 161
+  Falhas do servidor: 10
+  Falhas de atendentes: 575
+  Entradas de atendentes: 575
+
+Server-C:
+  Total de eventos: 1627
+  Atendimentos: 0
+  Falhas do servidor: 10
+  Falhas de atendentes: 797
+  Entradas de atendentes: 797
+
+LoadBalancer:
+  Total de eventos: 4
+  Atendimentos: 0
+  Falhas do servidor: 0
+  Falhas de atendentes: 0
+  Entradas de atendentes: 0
+
+================================================================================
